@@ -46,6 +46,7 @@ module.exports = withBundleAnalyzer({
     return require('./redirects.json')
   },
   webpack(config, options) {
+    config.devtool = 'eval-cheap-module-source-map'
     config.module.rules.push({
       test: /\.mp4$/i,
       issuer: /\.(jsx?|tsx?|mdx)$/,

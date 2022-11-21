@@ -132,11 +132,16 @@ export function NavItems() {
           <a className="hover:text-sky-500 dark:hover:text-sky-400">Docs</a>
         </Link>
       </li>
-      {/* <li>
+     <li>
+        <Link href="/guide/installation">
+          <a className="hover:text-sky-500 dark:hover:text-sky-400">Guide</a>
+        </Link>
+      </li> 
+     <li>
         <Link href="/blog">
           <a className="hover:text-sky-500 dark:hover:text-sky-400">Blog</a>
         </Link>
-      </li> */}
+      </li> 
     </>
   )
 }
